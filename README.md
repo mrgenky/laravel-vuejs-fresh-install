@@ -13,3 +13,5 @@ Installation :
 - `npm run watch`
 
 Nécessite composer, PHP 8
+
+Il faut ensuite créer un fichier .env à la racine du projet.
