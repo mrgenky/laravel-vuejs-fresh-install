@@ -1,7 +1,6 @@
 <template>
     <div>
-        Home <v-icon>mdi-eye</v-icon> <br>
-        <router-link to="/Admin">Admin</router-link>
+        Page Home
     </div>
 </template>
 

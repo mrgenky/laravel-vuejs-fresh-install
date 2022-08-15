@@ -2,6 +2,9 @@
     <v-app>
         <v-main>
             <v-container class="pa-5">
+                <v-btn to="/" text>Home</v-btn>
+                <v-btn to="/Admin" text>Admin</v-btn>
+                <hr>
                 <router-view :key="$route.path"></router-view>
             </v-container>
         </v-main>

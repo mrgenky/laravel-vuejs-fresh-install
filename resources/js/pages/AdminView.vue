@@ -1,7 +1,6 @@
 <template>
     <div>
-        Admin <br>
-        <router-link to="/">Home</router-link>
+        Page Admin
     </div>
 </template>
 
