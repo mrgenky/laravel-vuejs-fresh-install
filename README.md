@@ -10,3 +10,6 @@ Contient les outils suivants :
 Installation :
 - `npm install`
 - `composer install`
+- `npm run watch`
+
+Nécessite composer, PHP 8
