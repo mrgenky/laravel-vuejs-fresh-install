@@ -17,7 +17,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "AdminView"
 });
@@ -108,16 +107,7 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    [
-      _vm._v("\n    Admin "),
-      _c("br"),
-      _vm._v(" "),
-      _c("router-link", { attrs: { to: "/" } }, [_vm._v("Home")]),
-    ],
-    1
-  )
+  return _c("div", [_vm._v("\n    Page Admin\n")])
 }
 var staticRenderFns = []
 render._withStripped = true
