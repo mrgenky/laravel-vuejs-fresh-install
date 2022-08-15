@@ -30,3 +30,5 @@ Installation :
 Nécessite composer, PHP 8
 
 Il faut ensuite créer un fichier .env à la racine du projet.
+
+`php artisan key:generate` si besoin.
