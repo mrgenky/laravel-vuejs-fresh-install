@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
+import Page404 from "@/pages/Page404";
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -14,6 +16,10 @@ const routes = [
         name: 'Admin',
         component: () => import('../pages/AdminView.vue')
     },
+    {
+        path: "*",
+        component:Page404,
+    }
 ]
 
 const router = new VueRouter({
