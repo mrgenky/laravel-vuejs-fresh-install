@@ -2,8 +2,8 @@ require('./bootstrap');
 
 import Vue from "vue"
 import vuetify from "./plugins/vuetify"
-import router from './router'
-import store from './store'
+import router from './router/router'
+import store from './store/store'
 import App from './App.vue';
 
 import 'vuetify/dist/vuetify.min.css'
